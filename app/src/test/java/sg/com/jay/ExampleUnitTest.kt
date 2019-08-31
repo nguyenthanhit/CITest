@@ -9,7 +9,7 @@ class ExampleUnitTest {
     @Test
     @Throws(Exception::class)
     fun add_isCorrect() {
-        assertEquals(4, Utils.addNumbers(2, 5))
+        assertEquals(4, Utils.addNumbers(2, 2))
     }
 
     @Test
